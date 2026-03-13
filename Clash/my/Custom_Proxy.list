@@ -1,0 +1,16 @@
+# NAME: Custom_Proxy
+# AUTHOR: jianmo-z
+# REPO: https://github.com/jianmo-z/Custom_OpenClash_Rules
+# 最高优先级
+
+# openai
+DOMAIN-SUFFIX,ollama.com
+DOMAIN-SUFFIX,pling.com
+DOMAIN-SUFFIX,ghcr.io
+
+# cf
+DOMAIN-SUFFIX,cloudfront.net
+
+# linux
+DOMAIN-SUFFIX,debian.org
+DOMAIN-SUFFIX,ubuntu.com
