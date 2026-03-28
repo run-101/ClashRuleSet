@@ -14,5 +14,8 @@ DOMAIN-SUFFIX,302.ai
 DOMAIN-SUFFIX,salesmartly.com
 # DOMAIN-SUFFIX,googletagmanager.com
 
+# 测试ai 纯净度
+DOMAIN-SUFFIX,ping0.cc
+
 # 域名关键字匹配
 # DOMAIN-KEYWORD,mirror
