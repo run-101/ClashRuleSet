@@ -1,0 +1,23 @@
+# NAME: Custom_Game
+# AUTHOR: jianmo-z
+# REPO: https://github.com/jianmo-z/Custom_OpenClash_Rules
+# 最高优先级
+
+# 游戏
+DOMAIN-SUFFIX,stardewvalley.com
+DOMAIN-SUFFIX,stardewvalley.net
+DOMAIN-SUFFIX,stardewvalleywiki.com
+DOMAIN-SUFFIX,smapi.com
+DOMAIN-SUFFIX,smapi.io
+DOMAIN-SUFFIX,jsdelivr.net
+DOMAIN-SUFFIX,pubgselfservice.com
+DOMAIN-SUFFIX,pubg.com
+DOMAIN-SUFFIX,krafton.com
+DOMAIN-SUFFIX,pytorch.org
+
+# n站mod
+DOMAIN-SUFFIX,nexusmods.com
+DOMAIN-SUFFIX,network-n.com
+DOMAIN-SUFFIX,nexus-cdn.com
+DOMAIN-SUFFIX,gstatic.com
+DOMAIN-SUFFIX,paddle.com
