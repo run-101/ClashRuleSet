@@ -1,7 +1,6 @@
-# NAME: Custom_Proxy
-# AUTHOR: jianmo-z
-# REPO: https://github.com/jianmo-z/Custom_OpenClash_Rules
 # 最高优先级
+DOMAIN-SUFFIX,langchain.com
+DOMAIN-SUFFIX,langsmith.com
 
 # ubuntu 源
 DOMAIN-SUFFIX,launchpadcontent.net
