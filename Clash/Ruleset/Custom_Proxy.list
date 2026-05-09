@@ -1,6 +1,7 @@
 # 最高优先级
 DOMAIN-SUFFIX,langchain.com
 DOMAIN-SUFFIX,langsmith.com
+DOMAIN-SUFFIX,website-files.com
 
 # ubuntu 源
 DOMAIN-SUFFIX,launchpadcontent.net
