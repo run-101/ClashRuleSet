@@ -5,6 +5,8 @@
 
 # MyList
 # 域名后缀匹配
+DOMAIN-SUFFIX,imtintl.com
+DOMAIN-SUFFIX,immersivetranslate.com
 DOMAIN-SUFFIX,nowcoder.com
 DOMAIN-SUFFIX,time.windows.com
 DOMAIN-SUFFIX,lanzov.com
