@@ -1,0 +1,22 @@
+services:
+  aria2-pro:
+    image: p3terx/aria2-pro
+    container_name: aria2-pro
+    restart: unless-stopped
+    logging:
+      options:
+        max-size: 1m
+    environment:
+      PUID: "${PUID:-501}"
+      PGID: "${PGID:-20}"
+      UMASK_SET: "022"
+      RPC_SECRET: "aria2"
+      RPC_PORT: "6800"
+      LISTEN_PORT: "6888"
+    ports:
+      - "6800:6800"
+      - "6888:6888"
+      - "6888:6888/udp"
+    volumes:
+      - /Volumes/UrineBag/Docker/aria2/config:/config
+      - /Users/jianmo/Downloads:/downloads
