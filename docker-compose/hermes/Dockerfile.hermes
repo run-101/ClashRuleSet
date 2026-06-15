@@ -1,0 +1,18 @@
+FROM nousresearch/hermes-agent:latest
+
+
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    chromium \
+    fonts-noto-cjk \
+    fonts-noto-color-emoji \
+    ca-certificates && \
+    apt install -y python3.13-venv python3-pip python3-venv
+
+ENV CHROME_PATH="/usr/bin/chromium" \
+    NPM_CONFIG_PREFIX="/hermes-home/.shared/npm/npm-global" \
+    NPM_CONFIG_CACHE="/hermes-home/.shared/npm/npm-cache" \
+    NODE_PATH="/hermes-home/.shared/npm/npm-global/lib/node_modules" \
+    PIP_PREFIX="/hermes-home/.shared/python/python-user" \
+    PIP_CACHE_DIR="/hermes-home/.shared/python/pip-cache" \
+    PLAYWRIGHT_BROWSERS_PATH="/hermes-home/.shared/playwright-browsers" \
+    PATH="/hermes-home/.shared/python/python-user/bin:/hermes-home/.shared/bin:/hermes-home/.shared/npm/npm-global/bin:/opt/hermes/.venv/bin:$PATH"
