@@ -8,18 +8,23 @@ services:
     pull_policy: build
     container_name: hermes
     restart: unless-stopped
+    stop_grace_period: 30s
     volumes:
       - /Volumes/UrineBag/Docker/hermes/hermes-data:/opt/data
       - /Volumes/UrineBag/Docker/hermes/hermes-home:/hermes-home
     ports:
-      - "8642:8642"
-      - "9119:9119"
+      - "8642:8642" # gateway API
+      - "9119:9119" # web dashboard
     environment:
       TZ: Asia/Shanghai
+      HERMES_UID: "${HERMES_UID:-10000}"
+      HERMES_GID: "${HERMES_GID:-10000}"
       HERMES_DASHBOARD: "1"
       HERMES_DASHBOARD_TUI: "1"
+      HERMES_DASHBOARD_HOST: "0.0.0.0"
+      HERMES_DASHBOARD_INSECURE: "1"
       API_SERVER_ENABLED: "true"
       API_SERVER_HOST: "0.0.0.0"
       API_SERVER_KEY: hermes-agent
       API_SERVER_CORS_ORIGINS: "*"
-    command: gateway run
+    command: ["gateway", "run"]
