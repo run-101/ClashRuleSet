@@ -4,6 +4,8 @@ DOMAIN-SUFFIX,immortalwrt.org
 
 # 域名关键字匹配
 DOMAIN-KEYWORD,1e100
+DOMAIN-KEYWORD,101ghost
+DOMAIN-KEYWORD,skywardbase
 
 # other
 DOMAIN-SUFFIX,icuvdproduction.org
