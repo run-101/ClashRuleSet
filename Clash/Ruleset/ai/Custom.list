@@ -7,6 +7,7 @@ DOMAIN-SUFFIX,302.ai
 
 # 测试ai 纯净度
 DOMAIN-SUFFIX,ping0.cc
+DOMAIN-SUFFIX,shlii.io
 
 # claude
 DOMAIN-KEYWORD,anthropic
