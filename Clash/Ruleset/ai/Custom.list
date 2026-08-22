@@ -53,6 +53,7 @@ DOMAIN,alkalimakersuite-pa.clients6.google.com
 DOMAIN,makersuite.google.com
 DOMAIN-SUFFIX,ai.google.dev
 DOMAIN-SUFFIX,ai.google
+DOMAIN-SUFFIX,google.com
 DOMAIN-SUFFIX,gstatic.com
 DOMAIN-SUFFIX,bard.google.com
 DOMAIN-SUFFIX,gemini.google.com
