@@ -2,10 +2,12 @@
 DOMAIN-SUFFIX,langchain.com
 DOMAIN-SUFFIX,langsmith.com
 DOMAIN-SUFFIX,website-files.com
+DOMAIN-SUFFIX,jianme.top
 
 # ubuntu 源
 DOMAIN-SUFFIX,launchpadcontent.net
 DOMAIN-SUFFIX,playwright.dev
+
 
 # 机场
 DOMAIN-KEYWORD,flowercloud
