@@ -12,11 +12,27 @@ DOMAIN-KEYWORD,hongxing
 DOMAIN-KEYWORD,feiniaoyun
 DOMAIN-KEYWORD,flowercloud
 
+# ubuntu 源
+DOMAIN-SUFFIX,launchpadcontent.net
+DOMAIN-SUFFIX,playwright.dev
 
 # other
+DOMAIN-SUFFIX,idcflare.com
+DOMAIN-SUFFIX,cloudcone.com
+DOMAIN-SUFFIX,bandwagonhost.net
+DOMAIN-SUFFIX,hutao.cloud
+DOMAIN-SUFFIX,hutaod.com
+DOMAIN-SUFFIX,xinsi.org
+#DOMAIN-SUFFIX,xmancdn.net
+DOMAIN-SUFFIX,9eek.uk
+DOMAIN-SUFFIX,pronetwork.top
+DOMAIN-SUFFIX,tagss.pro
 DOMAIN-SUFFIX,icuvdproduction.org
 
 # dev
+DOMAIN-SUFFIX,langchain.com
+DOMAIN-SUFFIX,langsmith.com
+DOMAIN-SUFFIX,website-files.com
 DOMAIN-SUFFIX,debian.org
 DOMAIN-SUFFIX,ubuntu.com
 DOMAIN-SUFFIX,fastlydns.net
