@@ -1,0 +1,9 @@
+services:
+  subconverter-extended:
+    image: aethersailor/subconverter-extended:latest
+    container_name: subconverter-extended
+    restart: unless-stopped
+    ports:
+      - "25500:25500"
+    volumes:
+      - ./base:/base
