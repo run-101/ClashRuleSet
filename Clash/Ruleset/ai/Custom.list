@@ -1,13 +1,13 @@
 # NAME: Custom_Direct
-# AUTHOR: jianmo
 
-# 直连补充列表(国内域名不解析时，防止走代理使用)
-# 302.ai
-DOMAIN-SUFFIX,302.ai
+# hutao避免被拦截
+
+DOMAIN-SUFFIX,hutao.cloud
+DOMAIN-SUFFIX,hutaod.com
+DOMAIN-KEYWORD,skywardbase
 
 # 测试ai 纯净度
 DOMAIN-SUFFIX,ping0.cc
-DOMAIN-SUFFIX,shlii.io
 
 # claude
 DOMAIN-KEYWORD,anthropic
@@ -45,53 +45,53 @@ DOMAIN-SUFFIX,challenges.cloudflare.com
 DOMAIN-SUFFIX,browser-intake-datadoghq.com
 DOMAIN-SUFFIX,ab.chatgpt.com
 
-#Google Gemini 
-DOMAIN-KEYWORD,colab
-DOMAIN-KEYWORD,developerprofiles
-DOMAIN-KEYWORD,generativelanguage
-DOMAIN,alkalimakersuite-pa.clients6.google.com
-DOMAIN,makersuite.google.com
-DOMAIN-SUFFIX,ai.google.dev
-DOMAIN-SUFFIX,ai.google
-DOMAIN-SUFFIX,google.com
-DOMAIN-SUFFIX,gstatic.com
-DOMAIN-SUFFIX,bard.google.com
-DOMAIN-SUFFIX,gemini.google.com
-DOMAIN-SUFFIX,waa-pa.clients6.google.com
-DOMAIN-SUFFIX,aistudio.google.com
-DOMAIN-SUFFIX,generativelanguage.googleapis.com
-DOMAIN-SUFFIX,people-pa.clients6.google.com
-DOMAIN-SUFFIX,deepmind.com
-DOMAIN-SUFFIX,deepmind.google
-DOMAIN-SUFFIX,generativeai.google
-DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
-DOMAIN-SUFFIX,apis.google.com
-DOMAIN-SUFFIX,clients6.google.com
+# Google Gemini 
+#DOMAIN-KEYWORD,colab
+#DOMAIN-KEYWORD,developerprofiles
+#DOMAIN-KEYWORD,generativelanguage
+#DOMAIN,alkalimakersuite-pa.clients6.google.com
+#DOMAIN,makersuite.google.com
+#DOMAIN-SUFFIX,ai.google.dev
+#DOMAIN-SUFFIX,ai.google
+#DOMAIN-SUFFIX,google.com
+#DOMAIN-SUFFIX,gstatic.com
+#DOMAIN-SUFFIX,bard.google.com
+#DOMAIN-SUFFIX,gemini.google.com
+#DOMAIN-SUFFIX,waa-pa.clients6.google.com
+#DOMAIN-SUFFIX,aistudio.google.com
+#DOMAIN-SUFFIX,generativelanguage.googleapis.com
+#DOMAIN-SUFFIX,people-pa.clients6.google.com
+#DOMAIN-SUFFIX,deepmind.com
+#DOMAIN-SUFFIX,deepmind.google
+#DOMAIN-SUFFIX,generativeai.google
+#DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
+#DOMAIN-SUFFIX,apis.google.com
+#DOMAIN-SUFFIX,clients6.google.com
 
 # CiciAI
-PROCESS-NAME,Cici
-PROCESS-NAME,Cici Helper (Renderer)
-PROCESS-NAME,Cici Helper
-DOMAIN-KEYWORD,ciciai
-DOMAIN-KEYWORD,dola
-DOMAIN-KEYWORD,byteoversea
-DOMAIN-SUFFIX,cici.com
-DOMAIN-SUFFIX,dola.com
-DOMAIN-SUFFIX,ciciai.com
-DOMAIN-SUFFIX,vcs-sg.byteoversea.com
-DOMAIN-SUFFIX,vmweb-va.ciciai.com
-DOMAIN-SUFFIX,mcs-va.ciciai.com
-DOMAIN-SUFFIX,lf-rc1.yhgfb-static.com
-DOMAIN-SUFFIX,itobsnssdk.com
-DOMAIN-SUFFIX,ciciaicdn.com
-DOMAIN-SUFFIX,abtestvm-sg.bytedance.com
-DOMAIN-SUFFIX,starling-oversea.byteoversea.com
-DOMAIN-SUFFIX,sf16-tcc-tos-sg.byteoversea.com
-DOMAIN-SUFFIX,bytedapm.com
-DOMAIN-SUFFIX,byteintl.net
-IP-CIDR,23.41.4.0/22,no-resolve
+#PROCESS-NAME,Cici
+#PROCESS-NAME,Cici Helper (Renderer)
+#PROCESS-NAME,Cici Helper
+#DOMAIN-KEYWORD,ciciai
+#DOMAIN-KEYWORD,dola
+#DOMAIN-KEYWORD,byteoversea
+#DOMAIN-SUFFIX,cici.com
+#DOMAIN-SUFFIX,dola.com
+#DOMAIN-SUFFIX,ciciai.com
+#DOMAIN-SUFFIX,vcs-sg.byteoversea.com
+#DOMAIN-SUFFIX,vmweb-va.ciciai.com
+#DOMAIN-SUFFIX,mcs-va.ciciai.com
+#DOMAIN-SUFFIX,lf-rc1.yhgfb-static.com
+#DOMAIN-SUFFIX,itobsnssdk.com
+#DOMAIN-SUFFIX,ciciaicdn.com
+#DOMAIN-SUFFIX,abtestvm-sg.bytedance.com
+#DOMAIN-SUFFIX,starling-oversea.byteoversea.com
+#DOMAIN-SUFFIX,sf16-tcc-tos-sg.byteoversea.com
+#DOMAIN-SUFFIX,bytedapm.com
+#DOMAIN-SUFFIX,byteintl.net
+#IP-CIDR,23.41.4.0/22,no-resolve
 
-#trae  + MarsCode Oversea version
+# trae  + MarsCode Oversea version
 #PROCESS-NAME,Trae Helper
 #PROCESS-NAME,Trae Helper (Plugin)
 #PROCESS-NAME,ai

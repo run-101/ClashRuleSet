@@ -2,8 +2,21 @@
 DOMAIN-SUFFIX,qichiyu.com
 DOMAIN-SUFFIX,immortalwrt.org
 DOMAIN-SUFFIX,ippeak.com
+DOMAIN-SUFFIX,shlii.io
+DOMAIN-SUFFIX,302.ai
 
-# 域名关键字匹配
+# 机场
+DOMAIN-SUFFIX,bandwagonhost.net
+DOMAIN-KEYWORD,101ghost
+DOMAIN-KEYWORD,xsus
+DOMAIN-KEYWORD,hongxing
+DOMAIN-KEYWORD,feiniaoyun
+DOMAIN-KEYWORD,flowercloud
+DOMAIN-SUFFIX,idcflare.com
+DOMAIN-SUFFIX,cloudcone.com
+DOMAIN-SUFFIX,xinsi.org
+DOMAIN-SUFFIX,9eek.uk
+DOMAIN-SUFFIX,tagss.pro
 DOMAIN-KEYWORD,1e100
 
 # ubuntu 源

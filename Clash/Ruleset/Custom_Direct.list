@@ -1,5 +1,5 @@
 # 最高优先级
-DOMAIN-SUFFIX,jianme.top
+
 
 # MyList
 # 域名后缀匹配
@@ -18,6 +18,8 @@ DOMAIN-SUFFIX,yuanliao.info
 DOMAIN-KEYWORD,mirror
 DOMAIN-KEYWORD,ghp
 
+# jianme
+DOMAIN-SUFFIX,jianme.top
 
 # 360
 DOMAIN-SUFFIX,360.com
