@@ -30,6 +30,7 @@ DOMAIN-SUFFIX,cloudcone.com
 #DOMAIN-SUFFIX,xmancdn.net
 DOMAIN-SUFFIX,pronetwork.top
 DOMAIN-SUFFIX,icuvdproduction.org
+DOMAIN-SUFFIX,obsproject.com
 
 # dev
 DOMAIN-SUFFIX,langchain.com
