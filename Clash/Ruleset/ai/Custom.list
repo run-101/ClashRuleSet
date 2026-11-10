@@ -1,7 +1,7 @@
 # NAME: Custom_Direct
 
 # hutao避免被拦截
-DOMAIN-KEYWORD,skywardbase
+#DOMAIN-KEYWORD,skywardbase
 
 # 测试ai 纯净度
 DOMAIN-SUFFIX,ping0.cc
